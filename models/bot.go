@@ -250,7 +250,7 @@ var handleMessage = func(msgs ...interface{}) interface{} {
 							}
 						}
 					} else {
-						sender.Reply(fmt.Sprintf("无效"))
+						sender.Reply(fmt.Sprintf("无效,请重新抓取ck"))
 					}
 				}
 				go func() {
